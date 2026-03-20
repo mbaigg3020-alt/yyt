@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe</title>
+    <nav>
+        <h2></h2>
+    </nav>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fff6ee; 
+            font-family: 'Patrick Hand',cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 28px;
+            color: #7b4b3a;
+            margin-bottom: 20px;
+        }
+         .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .box {
+            background: #fffaf5;
+            padding: 20px;
+            width: 220px;
+            border-radius: 20px;
+            border: 2px dashed #e7cfc3;
+            box-shadow: 0 8px 15px rgba(150, 100, 80, 0.1);
+        }
+
+        .box h3 {
+            text-align: center;
+            color: #7b4b3a;
+        }
+
+        .text {
+            color: #6b4a3a;
+            font-size: 16px;
+        }
+
+        .back-btn {
+            margin-top: 25px;
+            padding: 8px 15px;
+            border-radius: 12px;
+            background: #f3dfd4;
+            text-decoration: none;
+            color: #6b4a3a;
+        }
+
+        .back-btn:hover {
+            background: #e8cfc2;
+        }
+    </style>
+</head>
+
+<body>
+<img src="dba504eaee5605a62d426a2a91f62d0b.jpg" class="top-banner" >
+<div class="cupcake-title">Strawberry Shortcake˗ˋˏ ♡ ˎˊ˗</div>
+<div class="top-left-img">
+    <img src="ad88042a1debd8532bb22f877dbb1a12.jpg" >
+</div>
+<style>
+    .top-banner{
+        width: 100%;
+        height: 90px;
+        object-fit: cover;
+        display: block;
+    }
+    body{
+        margin: 0;
+    }
+    body{
+        position: relative;
+    }
+    .top-left-img {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.top-left-img img {
+    width: 260px;
+    border-radius: 10px;
+}
+
+.top-left-img::before {
+    content: "";
+    width: 35px;
+    height: 12px;
+    background: #f3dfd4;
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    transform: rotate(-50px);
+    border-radius: 3px;
+    opacity: 0.8;
+}
+.sticky-note {
+  position: absolute;
+  right: 40px;
+  top: 150px;
+
+  width: 200px;
+  padding: 15px;
+
+  background: #fff5f7;
+  border: 2px dashed #ffb6c1;
+  border-radius: 10px;
+
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transform: rotate(-3deg);
+}
+
+.sticky-note::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50px;
+
+  width: 60px;
+  height: 20px;
+
+  background: #ffe2e9;
+  opacity: 0.7;
+
+  transform: rotate(-10deg);
+  border-radius: 5px;
+}
+.cupcake-title{
+    font-family: 'Dancing Script',cursive;
+    font-size: 40px;
+    color: #6b4a3a;
+    text-align: center;
+    text-shadow: 2px 2px 8px #ffd6e0;
+}
+</style>
+<div class="container">
+
+    <div class="box">
+        <h3>Ingredients</h3>
+        <p class="text">
+            - Flour<br>
+            - Baking Powder <br>
+            - Sugar <br>
+            - Baking soda<br>
+            - Milk <br>
+            - Vanilla Essence <br>
+            - Melted butter <br>
+            - Dryed and fresh strawberries <br>
+        </p>
+    </div>
+    <div class="sticky-note">
+        <h3>Tips</h3>
+        <ul>
+            <li>Dont overmix the batter</li>
+            <li>Use fresh strawberries</li>
+            <li>let it cool before frosting</li>
+            <li>Don't use melted butter</li>
+            <li>Serves 2 servings</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h3>Steps</h3>
+        <p class="text">
+            1. Preheat the oven <br>
+            2. Mix strawberries + sugar keep <aside></aside> <br>
+            3. Mix the  dry ingredients<br> 
+            4. Add cold butter rub until crumbly <br>
+            5. Add milk + Vanilla Essence<br>
+            6. Make 2 small rounds<br>
+            7. Let it cool slightly then decorate as you like<br>
+            8. Add cream + strawberries <br>
+
+        </p>
+    </div>
+
+</div>
+<img src="e65786756a9f2c1da0d0e7c89a57ed5f.jpg" width="108px" >
+<a href="recipe1.html" class="back-btn"> Back</a>
+<a href="recipe3.html" class="next-btn">
+    <button>Next</button>
+</a>
+<style>
+.next-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #e7cfc3;
+    color: #6b4a3a;
+    text-decoration: none;
+}
+
+.next-btn:hover {
+    background: #d9bfb3;
+}
+</style>
+
+</body>
+</html>
